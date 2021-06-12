@@ -1,0 +1,474 @@
+body {
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.border {
+    border: 0.2rem solid black;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 10px 30px rgba(124, 96, 96, 0.2);
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+    display: grid;
+ 
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    height: 2.5rem;
+    line-height: 2.8rem;
+    margin: 0rem 1.9rem -0.9rem 1.9rem;
+    padding: 0rem 1.3rem;
+    display: flex;
+    font-weight: 799;
+    color: black;
+    letter-spacing: 0.1rem;
+    font-size: 0.77em;
+    word-spacing: 0.1rem;
+    margin-top: -5%;
+    color: rgb(82, 79, 79);
+    margin-bottom: 0.2rem;
+    
+}
+/*
+nav ul li:nth-child(2)
+{
+    border-bottom: 7px solid palevioletred;
+}
+*/
+.img1{
+   margin-left: 44%;
+   margin-top: 2%;
+
+}
+.pg1{
+    background-image: url(images/Capture10.PNG);
+}
+.pg1-1{
+    display: flex;
+}
+
+.pg1-2{
+    display: flex;
+    font-family: 'Annie Use Your Telescope', cursive;
+    text-align:inherit ;
+    justify-content: space-around;
+}
+.img2{
+    margin:5rem 4rem 1rem 4rem ;
+    margin-left:10rem;
+    height: 29rem;
+    width: 35rem;
+}
+
+.h1-sentence{
+    margin:5rem 4rem ;
+    font-size: 3.8em;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-weight: 700;
+    word-spacing: 0.2rem;
+}
+
+.h3-sentence1{
+    font-size: 1.8em;
+    margin-left: -10rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.1rem;
+}
+
+.h3-sentence2{
+    font-size: 1.6em;
+    margin-right: -10rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
+}
+
+.h3-sentence2 h3{
+    margin-top: -2.9rem;
+    margin-left: 25rem;
+}
+
+.h3-sentence2 h1{
+    margin-top: -2.9rem;
+   margin-left: 25rem;
+    
+}
+
+.h3-sentence1 span{
+    margin-left: 1rem;
+    color: yellow;
+    letter-spacing: 0rem;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.pg2{
+   display: flex;
+}
+
+.pg2-1{
+    background-color: rgb(255, 0, 179);
+    color: white;
+    word-spacing: 0.1rem;
+}
+.pg2-1 h3{
+margin-top: 10rem;
+margin-left: 4rem;
+font-size: 1.2rem;
+}
+
+.pg2-1 h1{
+    margin-left: 4rem;
+    font-size: 2.4rem;
+    font-weight: 200;
+    margin-right: 8rem;
+    letter-spacing: 0.09rem;
+    word-spacing: 0.3rem;
+    margin-bottom: 5rem;
+     
+}
+.img4{
+    height:40rem;
+    width:50rem;
+}
+
+.pg2-1 .btn1{
+    
+    height:4rem;
+    width:10rem;
+    background-color: rgb(221, 13, 141);
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    margin:13rem 0rem;
+    font-weight: 300;
+    margin-left: 4rem;
+    margin-top: 4rem;
+}
+
+.pg2-1 .btn1:hover{
+    background-color: rgb(139, 12, 91);
+}
+
+.pg3{
+    margin-top: -1rem;
+    background-image: url(images/Capture4.PNG);
+    background-size: cover;
+    height:40rem;
+    width:100%;
+}
+
+.pg3-1{
+    margin-left: 45rem;
+    padding-top:5rem;
+    color: blue;
+}
+
+.pg3-1 h3{
+    padding-top: 5rem;
+    margin-left: 4rem;
+    font-size: 1.2rem;
+    }
+    
+.pg3-1 h1{
+        margin-left: 4rem;
+        font-size: 2.4rem;
+        font-weight: 200;
+        margin-right: 5rem;
+        letter-spacing: 0.09rem;
+        word-spacing: 0.3rem;
+        margin-bottom: 5rem;
+         
+    }
+
+    
+.pg3-1 .btn1{
+        
+        height:4rem;
+        width:10rem;
+        background-color: rgb(66, 189, 238);
+        color: white;
+        padding: 1rem 1.5rem;
+        border-radius: 0.5rem;
+        margin:13rem 0rem;
+        font-weight: 300;
+        margin-left: 4rem;
+        margin-top: 4rem;
+    }
+
+.pg3-1 .btn1:hover{
+        background-color: rgb(255, 0, 179);
+    }
+
+    .pg4{
+        display: flex;
+     }
+     
+     .pg4-1{
+         background-color: rgb(68, 214, 214);
+         color: white;
+         word-spacing: 0.1rem;
+     }
+     .pg4-1 h3{
+     margin-top: 10rem;
+     margin-left: 4rem;
+     font-size: 1.2rem;
+     }
+     
+     .pg4-1 h1{
+         margin-left: 4rem;
+         font-size: 2.4rem;
+         font-weight: 200;
+         margin-right: 8rem;
+         letter-spacing: 0.09rem;
+         word-spacing: 0.3rem;
+         margin-bottom: 5rem;
+          
+     }
+     .btn1{
+         
+         height:4rem;
+         width:10rem;
+         background-color: rgb(37, 152, 156);
+         color: white;
+         padding: 1rem 1.5rem;
+         border-radius: 0.5rem;
+         margin:13rem 0rem;
+         font-weight: 300;
+         margin-left: 4rem;
+         margin-top: 4rem;
+     }
+     
+     .btn1:hover{
+         background-color: rgb(255, 0, 179);
+     }
+.pg5{
+    background-color:  rgb(223, 238, 240);
+}
+.pg5-1{
+    display: flex;
+    margin-top: 0em ;
+
+}
+     .pg5-1{
+        margin-left: 45rem;
+        padding-top:5rem;
+        color: blue;
+    }
+    
+    .pg5-1 h3{
+        color: black;
+        padding-top: 5rem;
+        margin-left: 4rem;
+        font-size: 1.2rem;
+        }
+        
+    .pg5-1 h1{
+            margin-left: 4rem;
+            font-size: 2.4rem;
+            font-weight: 100;
+            margin-right: 5rem;
+            letter-spacing: 0.09rem;
+            word-spacing: 0.3rem;
+            margin-bottom: 5rem;
+             
+        }
+    
+        
+    .pg5-1 .btn1{
+            
+        height:1rem;
+        width:9rem;
+        background-color: rgb(37, 152, 156);
+        color: white;
+        padding: 1rem 2rem;
+        border-radius: 0.5rem;
+        font-weight: 300;
+        margin-left: 4.5rem;
+        margin-top: 4rem;
+        height:1rem;
+        text-align: center;
+        }
+    
+    .pg5-1 .btn1:hover{
+            background-color: rgb(255, 0, 179);
+        }
+.pg5-1 div a{
+    display: flex;
+}
+
+.img6{
+    height: 25rem;
+    width: 24rem;
+    margin-left: -35rem;
+    padding-top: 3rem;
+}
+
+
+.pg6{
+    display: flex;
+ }
+ 
+ .pg6-1{
+     background-color: rgb(0, 238, 255);
+     color: white;
+     word-spacing: 0.1rem;
+ }
+ .pg6-1 h3{
+ margin-top: 10rem;
+ margin-left: 4rem;
+ font-size: 1.2rem;
+ }
+ 
+ .pg6-1 h1{
+     margin-left: 4rem;
+     font-size: 2.4rem;
+     font-weight: 200;
+     margin-right: 13rem;
+     letter-spacing: 0.09rem;
+     word-spacing: 0.3rem;
+     margin-bottom: 5rem;
+      
+ }
+ .img4{
+     height:41rem;
+     width:50rem;
+ }
+ 
+ .btn1{
+     
+     height:4rem;
+     width:10rem;
+     background-color: rgb(110, 207, 245);
+     color: white;
+     padding: 1rem 1.5rem;
+     border-radius: 0.5rem;
+     margin:13rem 0rem;
+     font-weight: 300;
+     margin-left: 4rem;
+     margin-top: 4rem;
+ }
+ 
+ .btn1:hover{
+     background-color: rgb(255, 0, 179);
+ }
+ 
+ .pg7{
+    margin-top: -1rem;
+    background-image: url(images/Capture9.PNG);
+    background-size:cover;
+    height:40rem;
+    width:59rem;
+    margin-left: 25.1rem;
+}/*
+.img9{
+    background-size:cover;
+    height:40rem;
+    width:59rem;
+    margin-left: 25.1rem;
+}*/
+.pg7-1-2{
+background-color: rgb(235, 242, 243);
+height:40rem;
+width:30rem;
+margin-left:-30rem ;
+}
+
+.pg7-1 h3{
+    color: black;
+    padding-top: 5rem;
+    margin-left: 7rem;
+    font-size: 1rem;
+    font-weight: 200;
+    }
+    
+.pg7-1 h1{
+        color: blue;
+        margin-left: 7rem;
+        font-size: 2rem;
+        font-weight: 300;
+        letter-spacing: 0.09rem;
+        word-spacing: 0.3rem;
+        margin-bottom: 5rem;
+         
+    }
+
+    
+.pg7-1 .btn1{
+        
+    height:1rem;
+    width:9rem;
+    background-color: rgb(217, 236, 236);
+    color: blue;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    font-weight: 300;
+    margin-left: 8rem;
+    margin-top: 4rem;
+    height:1rem;
+    text-align: center;
+    }
+
+.pg7-1 .btn1:hover{
+        background-color: rgb(255, 0, 179);
+    }
+
+footer{
+    background-image: url(images/footerimg.PNG);
+    display: grid;
+    color: cornsilk;
+    font-size: small;
+    font-weight: 700;
+    letter-spacing: 0.05rem;
+}
+.footer1{
+   display: flex;
+   margin: 4.1rem;
+}
+.footer2{
+    display: flex;
+    margin-top: -4.5rem;
+    margin-left: 4rem;
+ }
+.footer1 p{
+    padding-left: 5rem;
+}
+.footer2 p{
+    padding-left: 4.5rem;
+}
+.footer3{
+margin-top:-2.2rem ;
+  margin-left: 9rem;
+ }
+ .footer4{
+      margin-left: 7rem;
+      margin-bottom: 2rem;
+     }
