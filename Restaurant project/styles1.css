@@ -1,0 +1,756 @@
+.top-header{
+    display: flex;
+    background-color: rgb(32, 32, 32);
+}
+.img1{
+    height:3.5rem;
+    width: auto;
+
+}
+.btn1{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(125, 173, 52);
+    padding: 0.2rem 1rem ;
+    right: 1rem;
+    position: absolute;
+    top: 0.7rem;
+    border-radius: 0.4rem;
+    right: 1rem;
+    font-size: 1rem;
+}
+
+nav{
+    display: flex;
+    background-color: rgb(27, 27, 27); 
+    height:23rem;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+   
+}
+.img2{
+   margin-top: 2.5rem;
+   margin-right: 11rem;
+   margin-left: 2rem;
+}
+
+.nav-items ul{
+    text-decoration: none;
+    display: flex;
+
+}
+
+nav ul li a {
+    font-family: 'Lora', serif;
+    height: 2.5rem;
+    text-decoration: none;
+    line-height: 2.8rem;
+    margin: 4.2rem 0.1rem;
+    padding: 0rem 0.9rem;
+    display: flex;
+    font-weight: 499;
+    color: rgb(223, 211, 211);
+    font-size: 1.2em;
+    word-spacing: 0.1rem;
+    margin-bottom: 0.2rem;
+    list-style-type: none;
+    
+}
+nav ul li a:hover{
+    border-bottom: 0.1rem solid white;
+    color: white;
+}
+.burger{
+    display: none;
+   cursor: pointer;
+   margin-left: 24rem;
+   margin-top: -5.5rem;
+}
+
+.line1{
+    background-color: white;
+    width: 2rem;
+    height: 0.25rem;
+    margin: 0.30rem;
+}
+
+.bd-example{
+    margin-top: -9rem;
+    margin-right: 3rem;
+    margin-left: 3rem;
+   
+  }
+  /* .carousel-item{
+    background-color: rgb(240, 233, 233);
+    margin-top: ;
+  } */
+.carousel-item img{
+    height: 30rem;
+    width:100%;
+   text-align:center;
+}
+.nav-lower{
+    display: flex;
+    background-color: rgb(240, 233, 233);
+    height: 7rem;
+}
+.nav-lower h5{
+   margin-top: 3rem;
+   font-size: 1.5rem;
+   font-weight: 500;
+   margin-bottom: 2rem;
+   padding-bottom: 0.5rem;
+   border-bottom: 0.15rem solid black;
+   margin-left:8rem ;
+   cursor: pointer;
+}
+
+.nav-lower h4{
+    margin-top: 3rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+    margin-left: 36rem;
+ }
+.fa {
+    padding: 1.5rem 1.6rem 1.5rem 1.5rem ;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    border-radius: 50%;
+    justify-content: center;
+    background-color: rgb(212, 161, 21);
+    margin-top: 2rem;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+  }
+.fa-facebook{
+    margin-left: 2rem;
+  }
+
+/* page 2 */
+.pg2-1{
+    display: flex;
+}
+.img3{
+    margin:6rem 1rem 0rem 6rem
+}
+.content1 h1{
+    margin-left: 6rem;
+    font-size: 3.5rem;
+    font-family: 'Lora', serif;
+    padding:1rem 9rem 2rem 1rem ;
+    font-weight: 500;
+}
+
+.content1 p{
+    margin-left: 6rem ;
+    font-size: 1.1rem;
+    font-family: 'Lora', serif;
+    padding:1rem 10rem 2rem 1rem ;
+}
+
+.img4{
+    margin-right: 3rem;
+    margin-top:6rem ;
+}
+.sampleclass{
+    display: flex;
+}
+.sampleclass .carousel-item img{
+    height: 30rem;
+    width: 45rem;
+   text-align:center;
+}
+.sampleclass .bd-example{
+    margin-top: -9rem;
+    margin-right: 10rem;
+    margin-left: 8rem;
+  }
+
+.sampleclass h3{
+    margin-top: 6rem;
+    font-size: 1.5rem;
+    font-family: 'Lora', serif;
+    margin-left: -2rem;
+  }
+
+.img5{
+    margin-left: -2rem;
+    margin-right: 3rem;
+    margin-top:2rem ;
+}
+
+/* page 3 */
+
+
+.pg3 nav{
+     background-color: rgb(206, 206, 206);
+     text-decoration: none;
+     display: flex;
+     height:60rem;
+     justify-content: space-around;
+}
+ul{
+    list-style-type: none;
+}
+
+.pg3 nav ul li a {
+    font-family: 'Lora', serif;
+    height: 2.5rem;
+    text-decoration: none;
+    line-height: 2.8rem;
+    margin: 10rem 0.1rem;
+    padding: 0rem 0.9rem;
+    display: flex;
+    font-weight: 499;
+    color: rgb(88, 83, 83);
+    font-size: 1.2em;
+    word-spacing: 0.1rem;
+    margin-bottom: 0.2rem;  
+}
+.pg3 nav ul li a:hover{
+    border-bottom: 0.1rem solid rgb(15, 15, 15);
+    color: rgb(17, 15, 15);
+}
+
+nav h4{
+    margin-top: 4rem;
+    margin-left: 1.5rem;
+    font-weight: 500;
+    font-size: 3.5rem;
+    font-family: 'Great Vibes', cursive;
+}
+
+nav h1{
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+
+}
+.menu1{
+    display: flex;
+}
+.menu{
+    display: flex;
+     margin-top: -45rem;
+}
+.menu-2{
+    display: flex;
+     margin-top: 0.2rem;
+}
+.menu-3{
+    display: flex;
+     margin-top: 0.2rem;
+}
+.menu-4{
+    display: flex;
+     margin-top: 0.2rem;
+}
+.menu-1-1{
+    display: grid;
+}
+
+.menu1-img{
+    margin-left: 7rem;
+    margin-right: 2rem;
+    margin-top:2rem;
+    height:6rem;
+    width: 11rem;
+}
+.menu1 h4{
+    margin-top: 3rem;
+
+}
+
+.menu1 h6{
+    margin-top: 3rem;
+   padding-right: 4rem;
+}
+
+
+
+
+/* pg testemonials */
+
+
+
+/* pg 5 */
+.pg5 h5{
+  margin-top: 10rem;
+  margin-left: 8rem;
+  font-weight: 500;
+  font-size: 2.5rem;
+  font-family: 'Great Vibes', cursive;
+}
+
+.pg5 h1{
+    margin-top: 1rem;
+    margin-left: 8rem;
+    font-size: 3.1em;
+    font-family: 'Lora', serif;
+    padding-right: 30rem;
+    font-weight: 500;
+  }
+  
+.pg5-1{
+    display: flex;
+}
+.pg5-1 p{
+    margin-top: 3rem;
+    margin-left: 8rem;
+}
+
+.pg5-1 h2{
+    margin-top: 1rem;
+    margin-left: 8rem;
+    padding-right: 2rem;
+}
+
+.pg5-1-2 p{
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+
+.pg5-1-2 h2{
+    margin-top: 1rem;
+    margin-left: 5rem;
+    padding-right: 2rem;
+    margin-bottom: 5rem;
+}
+
+.pg5-1-1-1{
+    margin-top: 4rem;
+    margin-left: 8rem;
+    padding:3rem;
+    background-color:black;
+    color:rgb(185, 184, 184);
+    font-family: 'Lora', serif;
+}
+
+.email{
+    margin-top: 1rem;
+    width:25rem;
+    height:3rem;
+    margin-right:2rem;
+    padding-left:1.5rem;
+}
+
+button{
+    width:7rem;
+    height:3rem;
+    border:none;
+    border-bottom: 0.15rem solid white;
+    background-color: black;
+    color:rgb(185, 184, 184);
+}
+.subscribe{
+    font-size:1.5rem;
+}
+.img7{
+    margin-top: 3rem;
+    height: 22rem;
+    width: 40rem;
+   text-align:center;
+   margin-left: 15%;
+   margin-right: 10rem;
+   
+}
+
+.img7:hover{
+    opacity: 0.5;
+}
+.img8{
+    margin-top: 3rem;
+    height: 40rem;
+    width: 23rem;
+   text-align:center;
+   margin-left: 5rem;
+}
+.img8:hover{
+    opacity: 0.5;
+}
+
+/* page 9 */
+.pg9 h5{
+    text-align:center;
+    font-weight: 500;
+    font-size: 3.5rem;
+    font-family: 'Great Vibes', cursive;
+}
+
+.pg9 h1{
+    text-align:center;
+}
+.pg9-1{
+    text-align:center;
+    margin: 2rem 5rem 5rem 5rem;
+    padding: 2rem 4rem 4rem 4rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+.pg9-11 .pg9-1{
+    text-align:center;
+    margin: -8rem 5rem;
+    padding: 0rem 4rem;
+    display: flex;
+    justify-content: space-around;
+
+}
+.pg9-1 p{
+    text-align:center;
+   padding:3rem 4rem;
+   font-size: 1.2rem;
+   background-color: rgb(235, 224, 235);
+   height: 10rem;
+   width: auto;
+   font-family: 'Lora', serif;
+}
+.pg9-1 h5{
+
+    text-align:center;
+   padding:3rem 4.2rem;
+   font-size: 1.2rem;
+   background-color: black;
+   height: 10rem;
+   width: auto;
+   color: white;
+   font-family: 'Lora', serif;
+}
+
+.more-events{
+    text-align:center;
+    padding-bottom: 0.21rem;
+    border-bottom: 0.15rem solid black;
+    margin:10rem 35rem 0.21rem 35rem;
+}
+
+
+
+/* page 6 */
+
+.pg6{
+    background-image: url("https://image.freepik.com/free-photo/smoked-mackerel-fresh-salad-dark-background_2829-3613.jpg");
+    width: 100%;
+    opacity: 0.8;
+    height: 35rem;
+    background-size: 100% 100%;
+}
+
+.pg6 h1{
+    font-size: 3.5rem;
+    padding: 10rem 40rem 2rem 6rem;
+    color:white;
+    opacity: 2.6;
+
+}
+
+.pg6 h3{
+    font-size: 1.5rem;
+    padding: 1rem 40rem 2rem 6rem;
+    color:white;
+    opacity: 2.6;
+    font-weight: 500;
+    font-family: 'Great Vibes', cursive;
+
+}
+
+
+/* page 7 */
+
+.pg7{
+    display: flex;
+}
+
+.pg7-1{
+    margin: 8rem;
+}
+
+.pg7-1 h5{
+    margin-bottom: 2.5rem;
+    font-weight: 500;
+    font-size: 3.5rem;
+    font-family: 'Great Vibes', cursive;
+}
+.pg7-1 h1{
+    font-size: 3rem;
+    font-weight: 500;
+    padding: 0rem 0rem 2rem 0rem;
+    font-family: 'Lora', serif;
+}
+
+.pg7-1 p{
+    font-size: 1.1rem;
+    padding: 0rem 0rem 2rem 0rem;
+    font-family: 'Lora', serif;
+}
+
+.pg7-1 h3{
+    font-size: 1.3rem;
+    font-weight: 400;
+    border-bottom: 0.17rem solid black ;
+    margin-right: 12rem;
+    padding: 0.5rem;
+}
+
+.pg7-2{
+   padding: 8rem 9rem 0rem 6rem ;
+   margin-left: -2rem;
+    margin-bottom: 1rem;
+    background-color: rgb(238, 232, 223);
+}
+.pg7-2-1{
+    display: flex;
+}
+
+.pg7-2-2{
+    display: flex;
+}
+.img6{
+    height: 15rem;
+    width: 15rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+}
+
+.pg7-2 h1{
+    margin-top: 4.5rem;
+}
+.pg7-2 p{
+    margin-top: 1rem;
+}
+.pg7-2 h5{
+   font-weight: 450;
+}
+
+/* page 10 */
+
+/* Visit Us */
+.visitus{
+    position: relative;
+    top: 10rem;
+}
+.visitus .hour{
+    padding-top: 4rem;
+}
+.visitus img{
+    height: 30rem;
+}
+.bookhour{
+    width: 90%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.happyhour{
+    height: 30rem;
+    border: transparent;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+}
+.happyhour p{
+    font-family: 'Dancing Script', cursive;
+    font-size: xx-large;
+    color: #b7b095;
+}
+.happyhour h1{
+    font-size:2.5rem;
+    font-family: 'Benne', serif;
+    color: white;
+}
+.happyhour a{
+    text-decoration: underline;
+    font-size: x-large;
+    color: white;
+    text-decoration-color: white;
+}
+.happyhour a:hover{
+    text-decoration: none;
+}
+
+/* page 11 */
+
+
+/* contacts */
+
+.contacts{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    background-color: cornsilk;
+    padding: 15rem 0 6rem 0;
+}
+.contacts .head{
+    color: black;
+    font-size: x-large;
+}
+.contacts .para{
+    color: #b7b095;
+    font-size: larger;
+}
+.contacts .address{
+    text-align: center;
+}
+.contacts .phone{
+    text-align: center;
+}
+.contacts .timetable{
+    text-align: center;
+}
+.contacts .email{
+    text-align: center;
+}
+
+
+
+/* Footer */
+
+.footerdesc{
+   background-color: rgb(27, 27, 27);
+    font-family: 'Benne', serif;
+    padding: 4rem 0 3rem 0;
+}
+.footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.decs{
+    border: transparent;
+    background-color: rgb(27, 27, 27);
+    text-align: center;
+    width: 20rem;
+}
+.decs img{
+    height: 5rem;
+    width: 8rem;
+    object-fit: contain;
+}
+.insta{
+    width: 20rem;
+    text-align: center;
+}
+.insta-pics img{
+    height: 6rem;
+    width: 6rem;
+    margin: 0.5rem 0.1rem;
+}
+.insta-pics .pics{
+    display: flex;
+    flex-direction: column;
+}
+.tuned .getintouch{
+    display: flex;
+    justify-content: center;
+    margin-right: auto;
+}
+.tuned .getintouch a{
+    color: white;
+    height: 2rem;
+    width: 2rem;
+    line-height: 2.3rem;
+    background-color: peru;
+    text-align: center;
+    border-radius: 3rem;
+    margin-right: 1vh;
+}
+.tuned .getintouch a:hover{
+    color: black;
+}
+.tuned{
+    width: 20rem;
+    text-align: center;
+}
+input{
+    text-align: center;
+    padding: 1rem 3rem;
+}
+.footer .head{
+    color: white;
+    font-size: x-large;
+}
+.underline{
+    height: 0.2rem;
+    width: 6rem;
+    background-color: #b7b095;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.line{
+    height: 0.2rem;
+    width: 4rem;
+    background-color: #b7b095;
+    justify-content: center;
+    margin: 0.5rem auto;
+}
+.footer .para{
+    color: #b7b095;
+    font-size: larger;
+}
+.footer .subscribe a{
+    color: #b7b095;
+    font-size: x-large;
+    text-decoration: underline;
+    text-decoration-color: #b7b095;
+    text-align: center;
+    margin-left: -7rem;
+}
+.footer .subscribe a:hover{
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+.footer .privacy{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+.footer .privacy:hover{
+    color: #b7b095;
+}
+.footer label{
+    color: #b7b095;
+}
+.insta1{
+    justify-content: space-evenly;
+}
+.insta2{
+    justify-content: space-evenly;
+}
+.footer .follow a{
+    color: white;
+}
+.footer .follow{
+    text-decoration: white underline;
+}
+.footer .follow:hover{
+    text-decoration: none;
+}
+.footer .follow .id{
+    font-size: x-large;
+}
+.copywrite{
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: -2rem;
+}
+.copywrite a{
+    text-decoration: none;
+  
+}
+.axiom{
+    color: white;
+}
+.axiom:hover{
+    color: #b7b095;
+}
+.themes{
+    color: #b7b095;
+}
