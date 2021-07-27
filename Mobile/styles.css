@@ -1,0 +1,475 @@
+body {
+    margin: 0rem;
+    padding: 0rem;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.border {
+    border: 0.2rem solid black;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#main {
+    width: 100%;
+    height: 100vh;
+    /* vh = view-height */
+    position: relative;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 10px 30px rgba(124, 96, 96, 0.2);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: white;
+ 
+}
+
+nav ul {
+    display: flex;
+}
+
+nav ul li a {
+    height: 2.5rem;
+    line-height: 2.8rem;
+    margin: 0.6rem;
+    padding: 0rem 0.7rem;
+    display: flex;
+    font-weight: 400;
+    color: black;
+    letter-spacing: 0.1rem;
+    font-size: 1.1em;
+    
+}
+
+nav ul li a:hover {
+     color:orangered;
+}
+.burger{
+    display: none;
+    cursor: pointer;
+}
+
+.line1{
+    background-color: black;
+    color: black;
+    width: 2rem;
+    height: 0.25rem;
+    margin: 0.30rem;
+}
+
+.img1{
+   margin-left: 4rem;
+}
+
+
+
+#home{
+    padding-top:1rem;
+    display:flex;
+    flex-direction: row;
+    margin-top: -27rem;
+    margin-left: 4rem;
+}
+
+
+.home1 h1{
+    font-size: 3.9em;
+    color: black;
+    font-weight: 800;
+    padding-left: 3rem;
+    padding-right: 19rem;
+
+}
+
+
+
+.home1 p{
+    margin-top: -2rem;
+    line-height: 2rem;
+    font-size: 1.2em;
+    color: grey;
+    font-weight: 200;
+    padding-left: 3rem;
+    padding-right: 18rem;
+}
+
+
+.img2{
+    margin-left: 1rem;
+    margin-right: 10rem;
+}
+
+.btn1{
+    height:4rem;
+    width:6rem;
+    background-color: orangered;
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    margin:13rem 0rem;
+    font-weight: 300;
+}
+
+.Features1{
+          text-align: center;
+}
+
+.Features1 h2{
+    margin-top: 6rem;
+    font-size: 2.5rem;
+}
+
+
+.Features1 p{
+    margin-top: -1rem;
+    font-size: 1.1em;
+    padding-left:  23rem;
+    padding-right: 23rem;
+    line-height: 1.8rem;
+    color: grey;
+} 
+
+.Features2{
+    display: flex;
+    flex-direction: row;
+    padding:4rem ;
+    margin: 4rem;
+    
+}
+
+
+.Features3{
+    text-align: center;
+}
+
+.Features3 p{
+
+    padding: 0em 0.7em;
+    line-height: 1.6rem;
+    color: grey;
+}
+
+.img3{
+    width:9rem;
+    height:9rem;
+    border-radius: 2rem;
+    margin-bottom: 2rem;
+
+}
+
+.About-1{
+    padding-top: 6em;
+    display:flex;
+    margin:4rem 5rem;
+}
+
+.About1 h1{
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.About1 h2{
+    font-size: 1.2em;
+    font-weight: 200;
+    color: gray;
+    padding-right: 11em;
+}
+.About1 p{
+    padding-left: 2rem;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.btn2{
+    height:4rem;
+    width:6rem;
+    background-color: orangered;
+    color: white;
+    padding: 1rem 1.5rem;
+    border-radius: 0.5rem;
+    margin:27rem 1.5rem;
+    font-weight: 300;
+}
+
+.About2{
+    display: flex;
+    background-color: orangered;
+    width:100%;
+    height:32rem;
+    margin-top: 10rem;
+}
+
+.About-2{
+    display: flex;
+    padding:7rem 0rem;
+    color: white;
+}
+
+.About2 h2{
+    
+    font-size: 3em;
+    font-weight: 200;
+    padding: 0em 6em 0rem 9rem;
+}
+
+.About2 p{
+    padding: 0rem 8rem 0rem 9rem;
+    font-size: 1.1em;
+    font-weight: 200;
+    letter-spacing: 0.0123rem;
+    word-spacing: 0.09rem;
+}
+
+
+.vedio{
+    margin-left: 10rem;
+}
+
+.About3-1{
+    text-align: center;
+    display: flex;
+    padding:1rem 1rem ;
+    margin-right:5rem;
+}
+
+
+.About3-2{
+    padding:1rem 1rem 0rem 1rem;
+ 
+}
+.About3-2 p{
+
+    padding: 0em 1.9em;
+    line-height: 1.3rem;
+    color: grey;
+}
+
+.img4{
+    margin-top: 3rem;
+}
+
+.img5{
+  text-align: center;
+    
+}
+
+.btn3{
+    text-align: center;
+    height:4rem;
+    width:6rem;
+    background-color: orangered;
+    color: white;
+    padding: 1rem 1.5rem;
+    font-weight: 300;
+    margin-top: 8rem;
+    margin-left: 38rem;
+}
+
+.Phone-2{
+    margin-top: 5rem;
+    display: grid;
+    text-align: center;
+    padding:7rem 0rem;
+    color: white;
+    background-color: orangered;
+}
+
+.Phone-2 h2{
+    font-size: 2.5rem;
+}
+
+.Phone-2 p{
+    font-size: 1.2rem;
+    padding: 0rem 20rem;
+    margin-top: -1.3rem;
+}
+
+.contact-input {
+    width: 38rem;
+    height: 4rem;
+    background-color:white;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    box-shadow: 2px 2px 30px rgba(0,0,0,0.15);
+    align-items: center;
+    margin-left: 24rem;
+    margin-top: 5rem;
+}
+
+.contact-input input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    text-align: center;
+    color: black
+}
+
+.contact-input a {
+    width: 15rem;
+    height: 3rem;
+    background-color: orangered;
+    color: White;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    display: grid;
+    place-items: center;
+    margin: auto 1rem;
+}
+
+
+.Faq-box{
+
+     height:2.9rem;
+     width: 33rem;
+     border: rgb(141, 136, 136);
+     background-color: rgb(248, 245, 245);
+     color: black;
+     justify-content: center;
+     padding-top: 1.3rem;
+     padding-left: 2.5rem;
+     margin-left: 6rem;
+     margin-top: 1rem;
+     font-size: 1.4rem;
+     font-weight: 500;
+}
+.Faq-box:hover{
+    color: white;
+    background-color: orangered;
+}
+
+.faq{
+    display: flex;
+}
+
+.client-showcase {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin-left: 6rem;
+}
+
+.client {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    margin: 70px 0px 20px 0px;
+    border: 1px solid orangered;
+    background-color: white;
+    
+}
+
+.client-text {
+    color: black;
+    font-size: 0.8rem;
+    padding: 20px;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.stars {
+    display: flex;
+    align-items:center;
+    flex-direction: row;
+    color: gold;
+    
+   
+}
+
+.avatar {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    width: 100px;
+    height: 100px;
+    border-radius: 70%;
+    box-shadow: 5px 10px 30px rgba(0,0,0,0.08);
+
+  }
+
+  .client-btn {
+    background-color:orangered;
+    color: white;
+    height: 44px;
+    width: 190px;
+    display: grid;
+    place-items: center;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px rgba(145,92,182,0.4);
+    
+}
+
+.contact1-input{
+    display: grid;
+    margin-left: 3rem;
+    margin-top: 2rem;
+    font-size: 2rem;
+    color: gray;
+    text-decoration:none;
+    border: none;
+    outline: none;
+}
+
+input[type=text],[type=email] , textarea {
+    width: 90%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid gray;
+    background-color: rgb(223, 222, 222);
+    font-weight: 600
+}
+
+footer p {
+    margin: 15px 0px;
+    color: black;
+    font-size: 0.9rem;
+}
